@@ -1,0 +1,15 @@
+{
+  "name": "cast-webhook",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Rathbun",
+  "license": "MIT",
+  "dependencies": {
+    "castv2": "^0.1.9",
+    "request": "^2.88.0"
+  }
+}
