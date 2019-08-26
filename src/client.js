@@ -1,5 +1,5 @@
 const castv2Client = require('castv2').Client;
-const request = require('request');
+const got = require('got');
 
 // TODO jsdoc would be nice
 
@@ -78,9 +78,16 @@ class Client {
   }
 
   static callWebhook(url) {
-    // TODO check response
-    // TODO maybe use got
-    request(url);
+    got(url)
+      .then(response => {
+        console.log('Request to webhook completed successfully', {
+          url: response.url,
+          statusCode: response.statusCode,
+        });
+      })
+      .catch(error => {
+        console.error('Request to webhook failed', error);
+      });
   }
 }
 

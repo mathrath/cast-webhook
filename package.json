@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "castv2": "^0.1.9",
-    "request": "^2.88.0",
+    "got": "^9.6.0",
     "yargs": "^14.0.0"
   }
 }
