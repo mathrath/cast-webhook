@@ -64,7 +64,7 @@ class Client {
       return;
     }
 
-    console.log('Making request to onStart webhook');
+    console.log(`Making request to onStart webhook at ${this.onStart}`);
     Client.callWebhook(this.onStart);
   }
 
@@ -73,7 +73,7 @@ class Client {
       return;
     }
 
-    console.log('Making request to onEnd webhook');
+    console.log(`Making request to onEnd webhook at ${this.onEnd}`);
     Client.callWebhook(this.onEnd);
   }
 
