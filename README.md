@@ -1,6 +1,4 @@
-# cast-webhook
-
-Call a webhook when a cast device is casted to.
+Call a webhook whenever a cast device is casted to! 🔊🔗💃
 
 # Why would anyone need this?
 
