@@ -1,6 +1,6 @@
 {
   "name": "cast-webhook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Matt Rathbun",
   "license": "MIT",
   "dependencies": {
-    "castv2": "^0.1.9",
+    "castv2": "^0.1.10",
     "got": "^9.6.0",
-    "yargs": "^14.0.0"
+    "yargs": "^14.2.2"
   }
 }
