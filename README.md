@@ -19,10 +19,10 @@ cast-webhook can be configured by command line argument or by environment variab
 
 ### Running with Docker
 
-A docker image can be found [here](https://hub.docker.com/r/mathrath/cast-webhook). You can run it like this:
+A docker image can be found [here](https://hub.docker.com/r/mattbun/cast-webhook). You can run it like this:
 
 ```
-docker run --rm -e CAST_WEBHOOK_HOST=<cast-device-url> -e CAST_WEBHOOK_START=<webhook-url> mathrath/cast-webhook
+docker run --rm -e CAST_WEBHOOK_HOST=<cast-device-url> -e CAST_WEBHOOK_START=<webhook-url> mattbun/cast-webhook
 ```
 
 #### With docker-compose
@@ -32,7 +32,7 @@ version: '3.7'
 
 services:
   cast-webhook:
-    image: mathrath/cast-webhook
+    image: mattbun/cast-webhook
     environment:
       - CAST_WEBHOOK_HOST=<cast-device-url>
       - CAST_WEBHOOK_START=<webhook-url>
